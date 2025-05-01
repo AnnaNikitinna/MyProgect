@@ -1,0 +1,148 @@
+// .card {
+//   background: #020024;
+//   background: linear-gradient(
+//     332deg,
+//     #000000 0%,
+//     rgb(2, 2, 34) 75%,
+//     rgb(45, 40, 88) 100%
+//   );
+// }
+.card {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  opacity: 0.9;
+}
+.header {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  color: white;
+}
+
+.leftInfo {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: white;
+}
+.whiteBold {
+  color: rgb(184, 174, 174);
+}
+.trafficItem {
+  display: inline-flex;
+  margin-right: 4px;
+  gap: 2px;
+}
+.infoItem {
+  display: flex;
+  gap: 5px;
+}
+.infoRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  color: gray;
+}
+.tags {
+  color: gray;
+}
+
+.title {
+  margin-top: 12px;
+  color: #1b67c4;
+}
+.showMoreButton {
+  margin-top: -40px;
+  left: -15px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #1b67c4;
+  margin-left: 5px;
+}
+.originalButton {
+  margin-top: 10px;
+}
+.paragraph {
+  margin-top: 10px;
+}
+.duble {
+  flex-direction: column;
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+}
+.relevance {
+  border: 1px solid #1b67c4;
+  border-radius: 5px;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+.downInfo {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.downTitle {
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.triangleDuble {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.viewButton {
+  margin-top: 10px;
+
+  color: gray;
+}
+.buttonRelevance {
+  margin-left: auto;
+  color: gray;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -30px;
+}
+.triangleRelevance {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+.rightIcons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.showViewOriginal {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.downInfoContainer {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid#1b67c4;
+  border-radius: 4px;
+}
